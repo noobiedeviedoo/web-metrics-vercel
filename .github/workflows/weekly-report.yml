@@ -1,0 +1,63 @@
+name: Mandar reporte semanal de Vercel Analytics (Telegram)
+
+on:
+  schedule:
+    # Lunes 06:30 UTC - 30 minutos despues del reporte de Instagram (06:00
+    # UTC lunes), para no mandar los dos mensajes a la vez. fetch-metrics.yml
+    # ya corrio ese mismo lunes a las 04:00 UTC, asi que los CSV estan al dia
+    # antes de generar el analisis.
+    - cron: "30 6 * * 1"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  weekly-report:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Instalar dependencias
+        run: pip install -r requirements.txt
+
+      - name: Analizar los datos con la API de Claude
+        # continue-on-error: si esto falla (p.ej. la API de Anthropic caida)
+        # no debe impedir que se intente lo demas del workflow.
+        continue-on-error: true
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python scripts/analyze_metrics.py
+
+      - name: Mandar el reporte por Telegram
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python scripts/send_weekly_report.py
+
+      - name: Commit del analisis y del marcador de "ya enviado"
+        run: |
+          git config user.name "vercel-metrics-bot"
+          git config user.email "actions@users.noreply.github.com"
+          if [ -f weekly_analysis.txt ]; then
+            git add weekly_analysis.txt
+          fi
+          if [ -f .last_sent_analysis_hash ]; then
+            git add .last_sent_analysis_hash
+          fi
+          if ! git diff --cached --quiet; then
+            git commit -m "Reporte semanal: actualizacion automatica"
+            if ! git push; then
+              echo "Push rechazado, sincronizando con git pull..."
+              git pull --no-edit --no-rebase
+              git push
+            fi
+          else
+            echo "Sin cambios que commitear."
+          fi

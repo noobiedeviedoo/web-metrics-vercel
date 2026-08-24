@@ -1,0 +1,52 @@
+name: Recoger metricas de Vercel Analytics (programado)
+
+on:
+  schedule:
+    # Todos los dias a las 04:00 UTC (05:00 en Espana en invierno, 06:00 en
+    # verano) - una hora despues del fetch de instagram-metrics-bot (03:00
+    # UTC), sin motivo tecnico para que coincidan, simplemente para no
+    # amontonar ambos crons a la misma hora. Pide los datos del dia ANTERIOR
+    # completo (00:00-24:00 UTC), que a las 04:00 UTC ya esta cerrado del todo.
+    - cron: "0 4 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  fetch-metrics:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Instalar dependencias
+        run: pip install -r requirements.txt
+
+      - name: Ejecutar recogida de metricas
+        env:
+          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+          VERCEL_TEAM_ID: ${{ secrets.VERCEL_TEAM_ID }}
+          VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
+        run: python scripts/fetch_metrics.py
+
+      - name: Commit y push de los CSV actualizados
+        run: |
+          git config user.name "vercel-metrics-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add daily_totals.csv daily_breakdown.csv
+          if ! git diff --cached --quiet; then
+            git commit -m "Metricas: actualizacion automatica diaria"
+            if ! git push; then
+              echo "Push rechazado, sincronizando con git pull..."
+              git pull --no-edit --no-rebase
+              git push
+            fi
+          else
+            echo "Sin cambios que commitear."
+          fi
