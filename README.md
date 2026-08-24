@@ -8,8 +8,9 @@ trafico, pais, tipo de dispositivo) del dia anterior, y los guarda en dos CSV
 dentro de este mismo repo — un snapshot diario, igual que hace
 `instagram-metrics-bot` con las metricas de Instagram. Con ese historico,
 Claude (o cualquier otra herramienta) puede leer la evolucion en el tiempo.
-Una vez a la semana se manda un analisis breve por Telegram, usando el mismo
-bot de texto (`tts-telegram-bot`) que ya usa el bot de Instagram.
+Una vez a la semana se manda un analisis breve por Telegram, en texto y en
+audio (edge-tts, misma voz que `tts-telegram-bot`), usando el mismo bot que
+ya usa el bot de Instagram.
 
 Es un proyecto independiente del frontend (`sastrephotoweb-frontend`) y del
 bot de Instagram a proposito — cada uno con su propio repo, su propio cron y
@@ -122,7 +123,7 @@ vercel-metrics-bot/
 ├── scripts/
 │   ├── fetch_metrics.py       # Pide metricas del dia anterior y las anade a los CSV
 │   ├── analyze_metrics.py     # Le pasa los CSV a la API de Claude y escribe weekly_analysis.txt
-│   └── send_weekly_report.py  # Manda weekly_analysis.txt por Telegram (texto)
+│   └── send_weekly_report.py  # Manda weekly_analysis.txt por Telegram (texto + audio)
 ├── .github/workflows/
 │   ├── fetch-metrics.yml      # Cron diario: solo actualiza los CSV (snapshot del dia)
 │   └── weekly-report.yml      # Cron semanal: genera el analisis y lo manda por Telegram
