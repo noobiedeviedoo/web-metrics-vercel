@@ -1,0 +1,8 @@
+date_utc,dimension,value,visitors,pageviews
+2026-08-23,route,/,2,2
+2026-08-23,route,/portfolio,1,1
+2026-08-23,referrerHostname,(directo/desconocido),2,3
+2026-08-23,country,CN,1,1
+2026-08-23,country,ES,1,2
+2026-08-23,deviceType,desktop,1,2
+2026-08-23,deviceType,mobile,1,1
