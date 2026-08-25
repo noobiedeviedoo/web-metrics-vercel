@@ -13,3 +13,17 @@ date_utc,dimension,value,visitors,pageviews
 2026-08-23,country,ES,1,2
 2026-08-23,deviceType,desktop,1,2
 2026-08-23,deviceType,mobile,1,1
+2026-08-24,route,/servicios,6,7
+2026-08-24,route,/,2,3
+2026-08-24,route,/como-trabajo,1,1
+2026-08-24,route,/contacto,1,1
+2026-08-24,route,/portfolio,1,1
+2026-08-24,route,/sobre-mi,1,1
+2026-08-24,referrerHostname,(directo/desconocido),2,10
+2026-08-24,referrerHostname,m.facebook.com,2,2
+2026-08-24,referrerHostname,facebook.com,1,1
+2026-08-24,referrerHostname,l.instagram.com,1,1
+2026-08-24,country,ES,3,11
+2026-08-24,country,US,3,3
+2026-08-24,deviceType,mobile,4,4
+2026-08-24,deviceType,desktop,2,10
