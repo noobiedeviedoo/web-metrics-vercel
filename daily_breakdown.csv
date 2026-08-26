@@ -27,3 +27,11 @@ date_utc,dimension,value,visitors,pageviews
 2026-08-24,country,US,3,3
 2026-08-24,deviceType,mobile,4,4
 2026-08-24,deviceType,desktop,2,10
+2026-08-25,route,/,3,5
+2026-08-25,route,/servicios,2,3
+2026-08-25,route,/contacto,1,1
+2026-08-25,route,/portfolio,1,2
+2026-08-25,referrerHostname,(directo/desconocido),2,8
+2026-08-25,referrerHostname,google.com,2,3
+2026-08-25,country,ES,3,11
+2026-08-25,deviceType,mobile,3,11
