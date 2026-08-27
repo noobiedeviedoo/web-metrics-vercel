@@ -35,3 +35,11 @@ date_utc,dimension,value,visitors,pageviews
 2026-08-25,referrerHostname,google.com,2,3
 2026-08-25,country,ES,3,11
 2026-08-25,deviceType,mobile,3,11
+2026-08-26,route,/servicios,3,3
+2026-08-26,route,/,2,2
+2026-08-26,route,/contacto,1,1
+2026-08-26,referrerHostname,(directo/desconocido),3,4
+2026-08-26,referrerHostname,l.instagram.com,2,2
+2026-08-26,country,ES,4,6
+2026-08-26,deviceType,desktop,2,3
+2026-08-26,deviceType,mobile,2,3
