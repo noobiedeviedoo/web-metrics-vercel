@@ -43,3 +43,10 @@ date_utc,dimension,value,visitors,pageviews
 2026-08-26,country,ES,4,6
 2026-08-26,deviceType,desktop,2,3
 2026-08-26,deviceType,mobile,2,3
+2026-08-27,route,/portfolio,3,8
+2026-08-27,route,/,2,3
+2026-08-27,route,/servicios,1,2
+2026-08-27,referrerHostname,(directo/desconocido),3,13
+2026-08-27,country,ES,3,13
+2026-08-27,deviceType,mobile,2,8
+2026-08-27,deviceType,desktop,1,5
