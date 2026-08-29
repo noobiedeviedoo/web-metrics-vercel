@@ -50,3 +50,9 @@ date_utc,dimension,value,visitors,pageviews
 2026-08-27,country,ES,3,13
 2026-08-27,deviceType,mobile,2,8
 2026-08-27,deviceType,desktop,1,5
+2026-08-28,route,/,1,1
+2026-08-28,route,/portfolio,1,2
+2026-08-28,referrerHostname,(directo/desconocido),2,3
+2026-08-28,country,ES,2,3
+2026-08-28,deviceType,desktop,1,1
+2026-08-28,deviceType,mobile,1,2
