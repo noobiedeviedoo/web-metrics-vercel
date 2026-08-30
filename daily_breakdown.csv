@@ -56,3 +56,12 @@ date_utc,dimension,value,visitors,pageviews
 2026-08-28,country,ES,2,3
 2026-08-28,deviceType,desktop,1,1
 2026-08-28,deviceType,mobile,1,2
+2026-08-29,route,/,2,2
+2026-08-29,route,/como-trabajo,1,1
+2026-08-29,route,/contacto,1,2
+2026-08-29,route,/portfolio,1,1
+2026-08-29,route,/servicios,1,4
+2026-08-29,referrerHostname,(directo/desconocido),2,10
+2026-08-29,country,ES,2,10
+2026-08-29,deviceType,desktop,1,9
+2026-08-29,deviceType,mobile,1,1
