@@ -99,3 +99,14 @@ date_utc,dimension,value,visitors,pageviews
 2026-09-01,country,US,1,1
 2026-09-01,deviceType,desktop,4,11
 2026-09-01,deviceType,mobile,4,8
+2026-09-02,route,/servicios,4,4
+2026-09-02,route,/,3,3
+2026-09-02,route,/portfolio,1,1
+2026-09-02,referrerHostname,(directo/desconocido),3,4
+2026-09-02,referrerHostname,l.instagram.com,3,3
+2026-09-02,referrerHostname,l.threads.com,1,1
+2026-09-02,country,ES,4,6
+2026-09-02,country,RU,1,1
+2026-09-02,country,US,1,1
+2026-09-02,deviceType,mobile,5,7
+2026-09-02,deviceType,desktop,1,1
