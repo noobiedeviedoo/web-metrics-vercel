@@ -125,3 +125,15 @@ date_utc,dimension,value,visitors,pageviews
 2026-09-03,country,US,2,3
 2026-09-03,deviceType,mobile,8,32
 2026-09-03,deviceType,desktop,4,69
+2026-09-04,route,/portfolio,4,15
+2026-09-04,route,/,3,7
+2026-09-04,route,/como-trabajo,3,4
+2026-09-04,route,/contacto,3,5
+2026-09-04,route,/portfolio/[slug],3,6
+2026-09-04,route,/servicios,3,11
+2026-09-04,route,/sobre-mi,1,2
+2026-09-04,referrerHostname,(directo/desconocido),5,49
+2026-09-04,referrerHostname,litmind.es,1,1
+2026-09-04,country,ES,5,50
+2026-09-04,deviceType,desktop,3,37
+2026-09-04,deviceType,mobile,2,13
