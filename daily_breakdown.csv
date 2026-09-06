@@ -137,3 +137,7 @@ date_utc,dimension,value,visitors,pageviews
 2026-09-04,country,ES,5,50
 2026-09-04,deviceType,desktop,3,37
 2026-09-04,deviceType,mobile,2,13
+2026-09-05,route,/servicios,1,1
+2026-09-05,referrerHostname,l.instagram.com,1,1
+2026-09-05,country,ES,1,1
+2026-09-05,deviceType,mobile,1,1
