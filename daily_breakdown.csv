@@ -147,3 +147,17 @@ date_utc,dimension,value,visitors,pageviews
 2026-09-07,country,ES,1,1
 2026-09-07,country,SE,1,2
 2026-09-07,deviceType,mobile,2,3
+2026-09-08,route,/,6,18
+2026-09-08,route,/portfolio,6,33
+2026-09-08,route,/portfolio/[slug],5,20
+2026-09-08,route,/servicios,3,3
+2026-09-08,route,/como-trabajo,1,1
+2026-09-08,route,/contacto,1,1
+2026-09-08,referrerHostname,(directo/desconocido),5,70
+2026-09-08,referrerHostname,l.instagram.com,3,3
+2026-09-08,referrerHostname,instagram.com,2,2
+2026-09-08,referrerHostname,m.facebook.com,1,1
+2026-09-08,country,ES,8,75
+2026-09-08,country,US,1,1
+2026-09-08,deviceType,mobile,7,42
+2026-09-08,deviceType,desktop,2,34
