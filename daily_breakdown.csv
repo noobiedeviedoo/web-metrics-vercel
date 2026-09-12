@@ -182,3 +182,15 @@ date_utc,dimension,value,visitors,pageviews
 2026-09-10,referrerHostname,(directo/desconocido),2,12
 2026-09-10,country,ES,2,12
 2026-09-10,deviceType,desktop,2,12
+2026-09-11,route,/servicios,6,6
+2026-09-11,route,/portfolio,3,4
+2026-09-11,route,/,2,6
+2026-09-11,route,/como-trabajo,2,2
+2026-09-11,route,/sobre-mi,2,2
+2026-09-11,route,/contacto,1,1
+2026-09-11,referrerHostname,l.instagram.com,5,5
+2026-09-11,referrerHostname,(directo/desconocido),3,16
+2026-09-11,country,ES,5,20
+2026-09-11,country,FR,1,1
+2026-09-11,deviceType,mobile,5,14
+2026-09-11,deviceType,desktop,1,7
