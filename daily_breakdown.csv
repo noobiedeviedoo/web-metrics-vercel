@@ -220,3 +220,11 @@ date_utc,dimension,value,visitors,pageviews
 2026-09-14,country,IE,1,1
 2026-09-14,deviceType,mobile,11,36
 2026-09-14,deviceType,desktop,3,15
+2026-09-15,route,/servicios,2,2
+2026-09-15,route,/portfolio,1,2
+2026-09-15,route,/portfolio/[slug],1,7
+2026-09-15,referrerHostname,l.instagram.com,2,2
+2026-09-15,referrerHostname,(directo/desconocido),1,9
+2026-09-15,country,ES,2,11
+2026-09-15,deviceType,desktop,1,10
+2026-09-15,deviceType,mobile,1,1
