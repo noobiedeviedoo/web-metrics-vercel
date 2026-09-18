@@ -234,3 +234,11 @@ date_utc,dimension,value,visitors,pageviews
 2026-09-16,referrerHostname,(directo/desconocido),2,8
 2026-09-16,country,ES,2,8
 2026-09-16,deviceType,desktop,2,8
+2026-09-17,route,/,3,6
+2026-09-17,route,/portfolio,2,6
+2026-09-17,route,/portfolio/[slug],2,5
+2026-09-17,route,/404,1,1
+2026-09-17,referrerHostname,(directo/desconocido),3,18
+2026-09-17,country,ES,3,18
+2026-09-17,deviceType,mobile,2,5
+2026-09-17,deviceType,desktop,1,13
