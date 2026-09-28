@@ -297,3 +297,13 @@ date_utc,dimension,value,visitors,pageviews
 2026-09-26,country,ES,1,5
 2026-09-26,country,US,1,1
 2026-09-26,deviceType,mobile,2,6
+2026-09-27,route,/,2,4
+2026-09-27,route,/como-trabajo,1,2
+2026-09-27,route,/portfolio,1,1
+2026-09-27,route,/servicios,1,1
+2026-09-27,route,/sobre-mi,1,2
+2026-09-27,referrerHostname,(directo/desconocido),1,9
+2026-09-27,referrerHostname,l.instagram.com,1,1
+2026-09-27,country,ES,2,10
+2026-09-27,deviceType,desktop,1,9
+2026-09-27,deviceType,mobile,1,1
