@@ -307,3 +307,8 @@ date_utc,dimension,value,visitors,pageviews
 2026-09-27,country,ES,2,10
 2026-09-27,deviceType,desktop,1,9
 2026-09-27,deviceType,mobile,1,1
+2026-09-28,route,/,1,6
+2026-09-28,route,/servicios,1,4
+2026-09-28,referrerHostname,(directo/desconocido),1,10
+2026-09-28,country,ES,1,10
+2026-09-28,deviceType,desktop,1,10
