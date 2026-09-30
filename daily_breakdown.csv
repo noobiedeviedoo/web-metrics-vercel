@@ -312,3 +312,9 @@ date_utc,dimension,value,visitors,pageviews
 2026-09-28,referrerHostname,(directo/desconocido),1,10
 2026-09-28,country,ES,1,10
 2026-09-28,deviceType,desktop,1,10
+2026-09-29,route,/,1,2
+2026-09-29,route,/servicios,1,1
+2026-09-29,referrerHostname,(directo/desconocido),1,2
+2026-09-29,referrerHostname,l.instagram.com,1,1
+2026-09-29,country,ES,2,3
+2026-09-29,deviceType,desktop,2,3
