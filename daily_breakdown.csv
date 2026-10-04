@@ -327,3 +327,11 @@ date_utc,dimension,value,visitors,pageviews
 2026-09-30,referrerHostname,(directo/desconocido),1,6
 2026-09-30,country,ES,1,6
 2026-09-30,deviceType,desktop,1,6
+2026-10-03,route,/,1,1
+2026-10-03,route,/como-trabajo,1,1
+2026-10-03,route,/portfolio,1,2
+2026-10-03,route,/portfolio/[slug],1,1
+2026-10-03,referrerHostname,(directo/desconocido),1,4
+2026-10-03,referrerHostname,google.com,1,1
+2026-10-03,country,ES,1,5
+2026-10-03,deviceType,mobile,1,5
