@@ -335,3 +335,9 @@ date_utc,dimension,value,visitors,pageviews
 2026-10-03,referrerHostname,google.com,1,1
 2026-10-03,country,ES,1,5
 2026-10-03,deviceType,mobile,1,5
+2026-10-05,route,/servicios,1,1
+2026-10-05,route,/sobre-mi,1,1
+2026-10-05,referrerHostname,(directo/desconocido),1,1
+2026-10-05,referrerHostname,l.instagram.com,1,1
+2026-10-05,country,ES,1,2
+2026-10-05,deviceType,mobile,1,2
