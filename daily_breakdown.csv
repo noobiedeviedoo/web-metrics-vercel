@@ -341,3 +341,10 @@ date_utc,dimension,value,visitors,pageviews
 2026-10-05,referrerHostname,l.instagram.com,1,1
 2026-10-05,country,ES,1,2
 2026-10-05,deviceType,mobile,1,2
+2026-10-06,route,/portfolio,2,2
+2026-10-06,route,/,1,1
+2026-10-06,route,/servicios,1,1
+2026-10-06,referrerHostname,(directo/desconocido),2,3
+2026-10-06,referrerHostname,l.instagram.com,1,1
+2026-10-06,country,ES,3,4
+2026-10-06,deviceType,mobile,3,4
