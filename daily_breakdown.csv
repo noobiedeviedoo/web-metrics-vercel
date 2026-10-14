@@ -373,3 +373,16 @@ date_utc,dimension,value,visitors,pageviews
 2026-10-12,country,SE,1,1
 2026-10-12,country,US,1,1
 2026-10-12,deviceType,mobile,3,5
+2026-10-13,route,/servicios,6,7
+2026-10-13,route,/,5,7
+2026-10-13,route,/portfolio,4,5
+2026-10-13,route,/como-trabajo,1,2
+2026-10-13,route,/contacto,1,1
+2026-10-13,route,/portfolio/[slug],1,1
+2026-10-13,route,/sobre-mi,1,1
+2026-10-13,referrerHostname,(directo/desconocido),5,18
+2026-10-13,referrerHostname,l.instagram.com,5,5
+2026-10-13,referrerHostname,google.com,1,1
+2026-10-13,country,ES,8,24
+2026-10-13,deviceType,mobile,6,12
+2026-10-13,deviceType,desktop,2,12
