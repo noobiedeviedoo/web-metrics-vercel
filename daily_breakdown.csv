@@ -386,3 +386,10 @@ date_utc,dimension,value,visitors,pageviews
 2026-10-13,country,ES,8,24
 2026-10-13,deviceType,mobile,6,12
 2026-10-13,deviceType,desktop,2,12
+2026-10-14,route,/,3,4
+2026-10-14,route,/portfolio,3,3
+2026-10-14,route,/portfolio/[slug],2,2
+2026-10-14,route,/servicios,1,1
+2026-10-14,referrerHostname,(directo/desconocido),3,10
+2026-10-14,country,ES,3,10
+2026-10-14,deviceType,desktop,3,10
