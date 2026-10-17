@@ -400,3 +400,16 @@ date_utc,dimension,value,visitors,pageviews
 2026-10-15,country,ES,2,10
 2026-10-15,deviceType,desktop,1,2
 2026-10-15,deviceType,mobile,1,8
+2026-10-16,route,/,7,16
+2026-10-16,route,/portfolio,5,64
+2026-10-16,route,/portfolio/[slug],2,6
+2026-10-16,route,/como-trabajo,1,1
+2026-10-16,route,/contacto,1,1
+2026-10-16,route,/servicios,1,2
+2026-10-16,route,/sobre-mi,1,2
+2026-10-16,referrerHostname,(directo/desconocido),8,90
+2026-10-16,referrerHostname,google.com,1,1
+2026-10-16,referrerHostname,l.instagram.com,1,1
+2026-10-16,country,ES,8,92
+2026-10-16,deviceType,mobile,7,85
+2026-10-16,deviceType,desktop,1,7
