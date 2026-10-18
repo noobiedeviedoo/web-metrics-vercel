@@ -413,3 +413,11 @@ date_utc,dimension,value,visitors,pageviews
 2026-10-16,country,ES,8,92
 2026-10-16,deviceType,mobile,7,85
 2026-10-16,deviceType,desktop,1,7
+2026-10-17,route,/,3,3
+2026-10-17,route,/portfolio,3,6
+2026-10-17,route,/portfolio/[slug],2,4
+2026-10-17,referrerHostname,(directo/desconocido),3,11
+2026-10-17,referrerHostname,l.instagram.com,2,2
+2026-10-17,country,ES,3,13
+2026-10-17,deviceType,mobile,2,7
+2026-10-17,deviceType,desktop,1,6
