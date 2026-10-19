@@ -421,3 +421,14 @@ date_utc,dimension,value,visitors,pageviews
 2026-10-17,country,ES,3,13
 2026-10-17,deviceType,mobile,2,7
 2026-10-17,deviceType,desktop,1,6
+2026-10-18,route,/descuento,6,6
+2026-10-18,route,/,2,3
+2026-10-18,route,/portfolio,2,2
+2026-10-18,route,/como-trabajo,1,1
+2026-10-18,route,/contacto,1,1
+2026-10-18,route,/servicios,1,1
+2026-10-18,route,/sobre-mi,1,1
+2026-10-18,referrerHostname,(directo/desconocido),6,15
+2026-10-18,country,ES,6,15
+2026-10-18,deviceType,mobile,5,7
+2026-10-18,deviceType,desktop,1,8
