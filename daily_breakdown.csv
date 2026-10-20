@@ -432,3 +432,10 @@ date_utc,dimension,value,visitors,pageviews
 2026-10-18,country,ES,6,15
 2026-10-18,deviceType,mobile,5,7
 2026-10-18,deviceType,desktop,1,8
+2026-10-19,route,/descuento,3,4
+2026-10-19,route,/,1,1
+2026-10-19,route,/contacto,1,2
+2026-10-19,referrerHostname,(directo/desconocido),4,7
+2026-10-19,country,ES,4,7
+2026-10-19,deviceType,mobile,3,4
+2026-10-19,deviceType,desktop,1,3
