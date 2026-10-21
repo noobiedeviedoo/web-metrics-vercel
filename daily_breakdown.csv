@@ -439,3 +439,15 @@ date_utc,dimension,value,visitors,pageviews
 2026-10-19,country,ES,4,7
 2026-10-19,deviceType,mobile,3,4
 2026-10-19,deviceType,desktop,1,3
+2026-10-20,route,/servicios,3,4
+2026-10-20,route,/,2,2
+2026-10-20,route,/portfolio,2,2
+2026-10-20,route,/contacto,1,1
+2026-10-20,route,/portfolio/[slug],1,2
+2026-10-20,route,/sobre-mi,1,1
+2026-10-20,referrerHostname,(directo/desconocido),3,9
+2026-10-20,referrerHostname,l.instagram.com,2,3
+2026-10-20,country,ES,4,12
+2026-10-20,deviceType,mobile,2,4
+2026-10-20,deviceType,desktop,1,1
+2026-10-20,deviceType,tablet,1,7
