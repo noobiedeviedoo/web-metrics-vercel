@@ -469,3 +469,10 @@ date_utc,dimension,value,visitors,pageviews
 2026-10-21,country,NL,1,1
 2026-10-21,deviceType,mobile,7,18
 2026-10-21,deviceType,desktop,2,11
+2026-10-22,route,/,2,2
+2026-10-22,route,/servicios,1,2
+2026-10-22,referrerHostname,(directo/desconocido),2,2
+2026-10-22,referrerHostname,l.instagram.com,1,2
+2026-10-22,country,ES,3,4
+2026-10-22,deviceType,desktop,2,2
+2026-10-22,deviceType,mobile,1,2
