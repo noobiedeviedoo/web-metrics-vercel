@@ -493,3 +493,12 @@ date_utc,dimension,value,visitors,pageviews
 2026-10-24,country,ES,1,1
 2026-10-24,country,US,1,1
 2026-10-24,deviceType,mobile,2,2
+2026-10-25,route,/portfolio/[slug],2,2
+2026-10-25,route,/portfolio,1,1
+2026-10-25,route,/servicios,1,1
+2026-10-25,referrerHostname,(directo/desconocido),2,3
+2026-10-25,referrerHostname,l.instagram.com,1,1
+2026-10-25,country,ES,1,3
+2026-10-25,country,US,1,1
+2026-10-25,deviceType,desktop,1,3
+2026-10-25,deviceType,mobile,1,1
