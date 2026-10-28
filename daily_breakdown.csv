@@ -507,3 +507,14 @@ date_utc,dimension,value,visitors,pageviews
 2026-10-26,referrerHostname,(directo/desconocido),2,3
 2026-10-26,country,US,2,3
 2026-10-26,deviceType,mobile,2,3
+2026-10-27,route,/servicios,2,2
+2026-10-27,route,/,1,2
+2026-10-27,route,/[pagina],1,1
+2026-10-27,route,/portfolio/[slug],1,1
+2026-10-27,referrerHostname,(directo/desconocido),3,3
+2026-10-27,referrerHostname,google.com,1,1
+2026-10-27,referrerHostname,l.instagram.com,1,1
+2026-10-27,referrerHostname,m.facebook.com,1,1
+2026-10-27,country,US,3,3
+2026-10-27,country,ES,2,3
+2026-10-27,deviceType,mobile,5,6
