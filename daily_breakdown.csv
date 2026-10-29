@@ -518,3 +518,10 @@ date_utc,dimension,value,visitors,pageviews
 2026-10-27,country,US,3,3
 2026-10-27,country,ES,2,3
 2026-10-27,deviceType,mobile,5,6
+2026-10-28,route,/[pagina],1,1
+2026-10-28,route,/servicios,1,1
+2026-10-28,referrerHostname,google.com,1,1
+2026-10-28,referrerHostname,l.instagram.com,1,1
+2026-10-28,country,ES,2,2
+2026-10-28,deviceType,desktop,1,1
+2026-10-28,deviceType,mobile,1,1
