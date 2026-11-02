@@ -546,3 +546,9 @@ date_utc,dimension,value,visitors,pageviews
 2026-10-31,country,US,1,1
 2026-10-31,deviceType,mobile,2,2
 2026-10-31,deviceType,desktop,1,8
+2026-11-01,route,/portfolio,3,7
+2026-11-01,route,/,2,6
+2026-11-01,route,/portfolio/[slug],1,1
+2026-11-01,referrerHostname,(directo/desconocido),3,14
+2026-11-01,country,ES,3,14
+2026-11-01,deviceType,mobile,3,14
