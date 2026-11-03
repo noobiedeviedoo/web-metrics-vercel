@@ -131,6 +131,7 @@ vercel-metrics-bot/
 ├── daily_breakdown.csv        # Se crea solo en la primera ejecucion
 ├── weekly_analysis.txt        # Lo escribe analyze_metrics.py cada semana
 ├── .last_sent_analysis_hash   # Lo escribe weekly-report.yml, evita duplicar el envio
+├── .last_sent_week            # Semana ISO del ultimo reporte enviado: evita repetirlo si se lanza varias veces el mismo lunes
 ├── requirements.txt
 ├── .env.example
 ├── .gitattributes

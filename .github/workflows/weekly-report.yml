@@ -7,10 +7,21 @@ on:
     # ya corrio ese mismo lunes a las 04:00 UTC, asi que los CSV estan al dia
     # antes de generar el analisis.
     - cron: "30 6 * * 1"
-  workflow_dispatch: {}
+  workflow_dispatch:
+    inputs:
+      forzar:
+        description: "Mandar aunque ya se haya mandado esta semana"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
+
+# Si cron-job.org lanza otra ejecucion mientras una sigue en marcha, la
+# nueva espera a que termine (y entonces ya ve el marcador de la semana).
+concurrency:
+  group: reporte-semanal-vercel
+  cancel-in-progress: false
 
 jobs:
   weekly-report:
@@ -19,15 +30,38 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Comprobar si ya se mando el reporte esta semana
+        # cron-job.org lanza este workflow varias veces cada lunes (respaldo
+        # por los retrasos del schedule de GitHub). El hash de
+        # .last_sent_analysis_hash NO sirve para evitar duplicados: el
+        # analisis se regenera con la API de Claude en cada ejecucion y nunca
+        # sale igual, asi que el audio/mensaje se mandaba en cada lanzamiento
+        # (y se pagaba un analisis cada vez). Este marcador guarda la semana
+        # ISO (UTC) del ultimo envio correcto y corta todo ANTES de llamar a
+        # Claude. Para forzar un envio a mano: lanzar con forzar = true.
+        id: guard
+        run: |
+          semana=$(date -u +%G-W%V)
+          echo "semana=$semana" >> "$GITHUB_OUTPUT"
+          if [ "${{ inputs.forzar }}" != "true" ] && [ -f .last_sent_week ] && [ "$(cat .last_sent_week)" = "$semana" ]; then
+            echo "El reporte de la semana $semana ya se mando — no se repite."
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "skip=false" >> "$GITHUB_OUTPUT"
+          fi
+
       - name: Configurar Python
+        if: steps.guard.outputs.skip != 'true'
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
 
       - name: Instalar dependencias
+        if: steps.guard.outputs.skip != 'true'
         run: pip install -r requirements.txt
 
       - name: Analizar los datos con la API de Claude
+        if: steps.guard.outputs.skip != 'true'
         # continue-on-error: si esto falla (p.ej. la API de Anthropic caida)
         # no debe impedir que se intente lo demas del workflow.
         continue-on-error: true
@@ -36,15 +70,21 @@ jobs:
         run: python scripts/analyze_metrics.py
 
       - name: Mandar el reporte por Telegram
+        if: steps.guard.outputs.skip != 'true'
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: python scripts/send_weekly_report.py
 
       - name: Commit del analisis y del marcador de "ya enviado"
+        if: steps.guard.outputs.skip != 'true'
         run: |
           git config user.name "vercel-metrics-bot"
           git config user.email "actions@users.noreply.github.com"
+          # Si se llega aqui, el envio por Telegram fue bien (el paso de
+          # envio no tiene continue-on-error): se marca la semana.
+          echo "${{ steps.guard.outputs.semana }}" > .last_sent_week
+          git add .last_sent_week
           if [ -f weekly_analysis.txt ]; then
             git add weekly_analysis.txt
           fi
