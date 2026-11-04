@@ -559,3 +559,7 @@ date_utc,dimension,value,visitors,pageviews
 2026-11-02,country,CA,1,2
 2026-11-02,country,ES,1,1
 2026-11-02,deviceType,desktop,2,3
+2026-11-03,route,/,2,2
+2026-11-03,referrerHostname,(directo/desconocido),2,2
+2026-11-03,country,ES,2,2
+2026-11-03,deviceType,desktop,2,2
