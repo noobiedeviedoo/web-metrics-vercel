@@ -563,3 +563,11 @@ date_utc,dimension,value,visitors,pageviews
 2026-11-03,referrerHostname,(directo/desconocido),2,2
 2026-11-03,country,ES,2,2
 2026-11-03,deviceType,desktop,2,2
+2026-11-05,route,/,2,5
+2026-11-05,route,/portfolio,1,1
+2026-11-05,route,/servicios,1,1
+2026-11-05,referrerHostname,(directo/desconocido),2,6
+2026-11-05,referrerHostname,facebook.com,1,1
+2026-11-05,country,ES,2,6
+2026-11-05,country,SE,1,1
+2026-11-05,deviceType,mobile,3,7
