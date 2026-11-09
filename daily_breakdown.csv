@@ -593,3 +593,8 @@ date_utc,dimension,value,visitors,pageviews
 2026-11-07,country,US,4,5
 2026-11-07,deviceType,(directo/desconocido),4,5
 2026-11-07,deviceType,mobile,4,6
+2026-11-08,route,/,2,6
+2026-11-08,route,/servicios,1,1
+2026-11-08,referrerHostname,(directo/desconocido),2,7
+2026-11-08,country,ES,2,7
+2026-11-08,deviceType,mobile,2,7
