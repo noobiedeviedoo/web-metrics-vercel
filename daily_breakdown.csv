@@ -628,3 +628,10 @@ date_utc,dimension,value,visitors,pageviews
 2026-11-13,referrerHostname,(directo/desconocido),1,1
 2026-11-13,country,ES,1,1
 2026-11-13,deviceType,mobile,1,1
+2026-11-15,route,/,1,2
+2026-11-15,route,/servicios,1,1
+2026-11-15,route,/sobre-mi,1,1
+2026-11-15,referrerHostname,(directo/desconocido),2,3
+2026-11-15,referrerHostname,l.instagram.com,1,1
+2026-11-15,country,ES,2,4
+2026-11-15,deviceType,mobile,2,4
