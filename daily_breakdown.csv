@@ -645,3 +645,17 @@ date_utc,dimension,value,visitors,pageviews
 2026-11-16,country,ES,4,11
 2026-11-16,deviceType,mobile,3,10
 2026-11-16,deviceType,desktop,1,1
+2026-11-17,route,/,2,3
+2026-11-17,route,/404,2,2
+2026-11-17,route,/portfolio,2,2
+2026-11-17,route,/servicios,2,3
+2026-11-17,route,/[pagina],1,1
+2026-11-17,route,/como-trabajo,1,2
+2026-11-17,route,/contacto,1,1
+2026-11-17,route,/sobre-mi,1,1
+2026-11-17,referrerHostname,(directo/desconocido),5,13
+2026-11-17,referrerHostname,google.com,2,2
+2026-11-17,country,ES,4,14
+2026-11-17,country,NL,1,1
+2026-11-17,deviceType,desktop,4,14
+2026-11-17,deviceType,mobile,1,1
