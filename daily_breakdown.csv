@@ -663,3 +663,17 @@ date_utc,dimension,value,visitors,pageviews
 2026-11-19,referrerHostname,(directo/desconocido),1,1
 2026-11-19,country,FR,1,1
 2026-11-19,deviceType,mobile,1,1
+2026-11-20,route,/,5,20
+2026-11-20,route,/servicios,5,11
+2026-11-20,route,/portfolio,4,19
+2026-11-20,route,/contacto,3,7
+2026-11-20,route,/como-trabajo,2,5
+2026-11-20,route,/portfolio/[slug],2,5
+2026-11-20,route,/sobre-mi,2,3
+2026-11-20,route,/404,1,1
+2026-11-20,referrerHostname,(directo/desconocido),6,70
+2026-11-20,referrerHostname,m.facebook.com,1,1
+2026-11-20,country,ES,6,70
+2026-11-20,country,US,1,1
+2026-11-20,deviceType,mobile,4,16
+2026-11-20,deviceType,desktop,3,55
