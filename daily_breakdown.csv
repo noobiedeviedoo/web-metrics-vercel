@@ -687,3 +687,13 @@ date_utc,dimension,value,visitors,pageviews
 2026-11-21,referrerHostname,sastrephotoweb-frontend-git-develop-masgs-projects.vercel.app,1,1
 2026-11-21,country,ES,5,15
 2026-11-21,deviceType,mobile,5,15
+2026-11-22,route,/,3,11
+2026-11-22,route,/portfolio,3,36
+2026-11-22,route,/portfolio/[slug],3,25
+2026-11-22,route,/como-trabajo,1,1
+2026-11-22,route,/contacto,1,1
+2026-11-22,route,/sobre-mi,1,1
+2026-11-22,referrerHostname,(directo/desconocido),3,75
+2026-11-22,country,ES,3,75
+2026-11-22,deviceType,desktop,2,52
+2026-11-22,deviceType,mobile,1,23
