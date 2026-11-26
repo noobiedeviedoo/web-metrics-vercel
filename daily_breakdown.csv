@@ -725,3 +725,16 @@ date_utc,dimension,value,visitors,pageviews
 2026-11-24,country,US,1,2
 2026-11-24,deviceType,mobile,6,12
 2026-11-24,deviceType,desktop,3,29
+2026-11-25,route,/,6,7
+2026-11-25,route,/portfolio/[slug],4,11
+2026-11-25,route,/portfolio,2,5
+2026-11-25,route,/como-trabajo,1,1
+2026-11-25,referrerHostname,(directo/desconocido),6,20
+2026-11-25,referrerHostname,l.instagram.com,3,3
+2026-11-25,referrerHostname,m.facebook.com,1,1
+2026-11-25,country,ES,3,5
+2026-11-25,country,US,3,7
+2026-11-25,country,FR,1,11
+2026-11-25,country,SA,1,1
+2026-11-25,deviceType,mobile,7,13
+2026-11-25,deviceType,desktop,1,11
