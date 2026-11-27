@@ -738,3 +738,15 @@ date_utc,dimension,value,visitors,pageviews
 2026-11-25,country,SA,1,1
 2026-11-25,deviceType,mobile,7,13
 2026-11-25,deviceType,desktop,1,11
+2026-11-26,route,/,3,6
+2026-11-26,route,/portfolio,2,3
+2026-11-26,route,/portfolio/[slug],2,2
+2026-11-26,route,/servicios,2,3
+2026-11-26,route,/[pagina],1,1
+2026-11-26,route,/contacto,1,2
+2026-11-26,referrerHostname,(directo/desconocido),4,12
+2026-11-26,referrerHostname,l.instagram.com,2,3
+2026-11-26,referrerHostname,google.com,1,2
+2026-11-26,country,ES,3,7
+2026-11-26,country,AR,1,10
+2026-11-26,deviceType,mobile,4,17
