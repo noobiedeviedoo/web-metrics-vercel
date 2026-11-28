@@ -750,3 +750,10 @@ date_utc,dimension,value,visitors,pageviews
 2026-11-26,country,ES,3,7
 2026-11-26,country,AR,1,10
 2026-11-26,deviceType,mobile,4,17
+2026-11-27,route,/,1,2
+2026-11-27,route,/portfolio,1,2
+2026-11-27,route,/portfolio/[slug],1,1
+2026-11-27,referrerHostname,(directo/desconocido),1,4
+2026-11-27,referrerHostname,l.instagram.com,1,1
+2026-11-27,country,MX,1,5
+2026-11-27,deviceType,mobile,1,5
